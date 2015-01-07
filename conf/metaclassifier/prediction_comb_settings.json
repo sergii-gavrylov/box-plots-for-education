@@ -1,0 +1,5 @@
+{
+    "test_features_file_path": "data/features/f_test_cbow_meta.dat",
+    "classifiers_dir": "data/classifiers/meta_comb",
+    "submission_file_path": "data/submission_files/meta_comb_f_submission.csv"
+}

@@ -1,0 +1,9 @@
+data
+.idea
+.ipynb_checkpoints
+.DS_Store
+*.pyc
+TokenizerServer/.idea
+TokenizerServer/out
+TokenizerServer/TokenizerServer.iml
+TokenizerServer/src/META-INF

@@ -1,0 +1,15 @@
+{
+    "data_file_path": {
+        "train": "data/preprocessed_data/TrainingData.pckl",
+        "test": "data/preprocessed_data/TestData.pckl"
+    },
+    "features_file_path": {
+        "train": "data/features/f_train_cbow.dat",
+        "test": "data/features/f_test_cbow.dat"
+    },
+    "word_vectors_path": "data/word_vectors/glove_model_300d.h5",
+    "nan_substitute": {
+        "FTE": -1,
+        "Total": -20000
+    }
+}

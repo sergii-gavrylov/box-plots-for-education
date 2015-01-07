@@ -1,0 +1,4 @@
+{
+    "train_features_file_path": "data/MFeatures/TrainingData.pckl",
+    "classifiers_dir": "data/classifiers/meta"
+}

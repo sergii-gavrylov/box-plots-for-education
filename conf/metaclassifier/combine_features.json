@@ -1,0 +1,10 @@
+{
+  "features_file_paths": {
+    "train": ["data/MFeatures/TrainingData.pckl", "data/features/f_train_cbow.dat"],
+    "test": ["data/MFeatures/TestData.pckl", "data/features/f_test_cbow.dat"]
+  },
+  "combined_features_file_path": {
+    "train": "data/features/f_train_cbow_meta.dat",
+    "test": "data/features/f_test_cbow_meta.dat"
+  }
+}

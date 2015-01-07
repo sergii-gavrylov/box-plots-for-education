@@ -1,0 +1,5 @@
+{
+    "test_features_file_path": "data/MFeatures/TestData.pckl",
+    "classifiers_dir": "data/classifiers/meta",
+    "submission_file_path": "data/submission_files/meta_submission.csv"
+}

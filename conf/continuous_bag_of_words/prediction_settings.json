@@ -1,0 +1,5 @@
+{
+    "test_features_file_path": "data/features/f_test_cbow.dat",
+    "classifiers_dir": "data/classifiers/cbow_new",
+    "submission_file_path": "data/submission_files/cbow_new_submission.csv"
+}

@@ -1,0 +1,17 @@
+{
+    "test_data_file_path": "data/preprocessed_data/TestData.pckl",
+    "classifiers_paths": {
+        "Function": "data/classifiers/nn2_n/Function_800000.clf",
+        "Object_Type": "data/classifiers/nn2_n/Object_Type_450000.clf",
+        "Operating_Status": "data/classifiers/nn2_n/Operating_Status_450000.clf",
+        "Position_Type": "data/classifiers/nn2_n/Position_Type_450000.clf",
+        "Pre_K": "data/classifiers/nn2_n/Pre_K_450000.clf",
+        "Reporting": "data/classifiers/nn2_n/Reporting_450000.clf",
+        "Sharing": "data/classifiers/nn2_n/Sharing_900000.clf",
+        "Student_Type": "data/classifiers/nn2_n/Student_Type_450000.clf",
+        "Use": "data/classifiers/nn2_n/Use_450000.clf"
+    },
+    "word_vectors_path": "data/word_vectors/glove_model_300d.h5",
+    "transformers_dir": "data/transformers/nn2_n_transformers",
+    "submission_file_path": "data/submission_files/nn2_n_submission.csv"
+}

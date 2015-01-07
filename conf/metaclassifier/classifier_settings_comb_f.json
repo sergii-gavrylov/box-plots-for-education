@@ -1,0 +1,4 @@
+{
+    "train_features_file_path": "data/features/f_train_cbow_meta.dat",
+    "classifiers_dir": "data/classifiers/meta_comb"
+}

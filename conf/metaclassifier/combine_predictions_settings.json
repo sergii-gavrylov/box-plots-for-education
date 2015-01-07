@@ -1,0 +1,8 @@
+{
+    "submission_file_paths": ["data/submission_files/meta_submission.csv",
+                              "data/submission_files/cbow_submission.csv",
+                              "data/submission_files/cbow_new_submission.csv",
+                              "data/submission_files/nn2_submission_900000.csv",
+                              "data/submission_files/meta_comb_f_submission.csv"],
+    "combined_submission_file_path" : "data/submission_files/combined5_submission.csv"
+}

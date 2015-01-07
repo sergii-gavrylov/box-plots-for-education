@@ -1,0 +1,40 @@
+{
+    "raw_data_path": {
+        "train": "data/raw_data/TrainingData.csv",
+        "test": "data/raw_data/TestData.csv"
+    },
+    "preprocessed_data_path": {
+        "train": "data/preprocessed_data/TrainingData.pckl",
+        "test": "data/preprocessed_data/TestData.pckl"
+    },
+    "tokenizer_server": {
+        "host": "localhost",
+        "port": 5471
+    },
+
+    "stop_words": ["‐", "‑", "-", "‒", "–", "—", "―", "－", "+", "/", "*", ".", ",", "'", "(", ")", "\"", "&", ":", "to", "of", "and", "or", "for", "the", "a"],
+
+    "logging" : {
+        "version": 1,
+        "disable_existing_loggers": true,
+        "formatters": {
+            "verbose": {
+                "format": "%(levelname)s %(asctime)s %(module)s %(thread)d %(message)s"
+            }
+        },
+        "handlers": {
+            "file_handler": {
+                "class": "logging.FileHandler",
+                "level": "DEBUG",
+                "formatter": "verbose",
+                "filename": "data/preprocessing.log"
+            }
+        },
+        "loggers": {
+            "preprocessing": {
+                "handlers": ["file_handler"],
+                "level": "DEBUG"
+            }
+        }
+    }
+}
